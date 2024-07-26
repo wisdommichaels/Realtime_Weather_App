@@ -12,7 +12,7 @@ body {
   
   .widget-container {
     display: flex;
-    flex-direction: column; /* Changed from row to column to stack widgets vertically */
+    flex-wrap: wrap; /* Changed from row to column to stack widgets vertically */
     justify-content: center;
     align-items: center;
     width: 100%;
