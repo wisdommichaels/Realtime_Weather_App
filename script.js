@@ -1,5 +1,5 @@
 const apiKey = "066eac4caf7b914446a3c2088682a1bb"; // API key OpenWeatherMap
-const cities = ["Nigeria", "Tokyo", "Seoul", "Taiwan", "San paolo", "Abuja"]; // Array cities
+const cities = ["Nigeria", "Abuja", "Seoul", "Tokyo", "Taiwan", "San paolo",]; // Array cities
 
 function createWidget(cityIndex) {
   const widgetContainer = document.getElementById("widget-container");
@@ -44,7 +44,7 @@ function updateWeather(cityIndex) {
         temperature: Math.round(data.main.temp),
         condition: data.weather[0].description,
         icon: getWeatherIcon(data.weather[0].main),
-        timezoneOffset: data.timezone // Ottieni l'offset del fuso orario dall'API
+        timezoneOffset: data.timezone
       };
 
       document.getElementById(`location-city${cityIndex}`).textContent =

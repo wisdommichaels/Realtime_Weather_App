@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 3em 0;
     font-family: "MuseoModerno", sans-serif;
-    background: linear-gradient(135deg, #17265f, #0066cc, #87a6d2);
+    background: linear-gradient(135deg, #2c3f87, #075baf, #731891);
     line-height: 2em;
     transition: background 0.5s ease-in-out;
   }
@@ -17,7 +17,7 @@ body {
     align-items: center;
     width: 100%;
     height: 100%;
-    gap: 2.8rem; /* Optional: adds space between widgets */
+    gap: 2.8rem;
   }
   
   .weather-widget {
@@ -110,4 +110,4 @@ body {
       transform: rotate(360deg);
     }
   }
-  
+  /* Ottieni l'offset del fuso orario dall'API */
