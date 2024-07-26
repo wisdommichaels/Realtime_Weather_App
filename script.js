@@ -1,5 +1,5 @@
 const apiKey = "066eac4caf7b914446a3c2088682a1bb"; // API key OpenWeatherMap
-const cities = ["New York", "Tokyo", "Rome, it", "moscow", "San paolo"]; // Array cities
+const cities = ["Nigeria", "Tokyo", "Rome, it", "moscow", "San paolo"]; // Array cities
 
 function createWidget(cityIndex) {
   const widgetContainer = document.getElementById("widget-container");
