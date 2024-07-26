@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 3em 0;
     font-family: "MuseoModerno", sans-serif;
-    background: linear-gradient(135deg, #1d2b64, #0066cc, #fff);
+    background: linear-gradient(135deg, #17265f, #0066cc, #87a6d2);
     line-height: 2em;
     transition: background 0.5s ease-in-out;
   }
